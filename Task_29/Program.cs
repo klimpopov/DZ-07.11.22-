@@ -4,7 +4,7 @@ int[] InMassive (int size, int min, int max)
       int[] array=new int[size];
                     for (int i=0; i < size; i++)
                     {
- array[i]=new Random().Next(min-1, max+1); 
+ array[i]=new Random().Next(min, max); 
                     }
 return array;
 
